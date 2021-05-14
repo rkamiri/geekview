@@ -1,0 +1,45 @@
+article{
+    padding :4vw;   
+    padding-top:3vw;
+    padding-bottom:3vw;
+}
+
+h1{
+	text-decoration: underline;
+	text-decoration-color: #4FC649;
+	font-size: 200%;
+}
+
+
+h2{
+	color: #4FC649;
+	text-decoration: underline;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+h3{
+	font-size: 160%;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 140%;
+	font-weight: bold;
+	color: #262626;
+}
+
+h5{
+	font-size: 120%;
+	font-weight: bold;
+	color: #3b3a3a;
+}
+
+p{
+	font-size: 95%;
+	color: #525252;
+}
+
+#blabla{
+	color: red;
+}

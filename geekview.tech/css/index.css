@@ -1,0 +1,225 @@
+
+
+h1{
+    text-align:center;
+    text-decoration: underline;
+}
+.carousel-inner{
+    width:72.65vw;
+    margin:auto;
+
+}
+
+.carousel-item{
+    margin:auto;
+    width:72.65vw;
+    max-height:62.5vh;
+    min-height:62.5vh;
+}
+
+.carousel-item img{
+    
+    max-height:62.5vh;
+    min-height:62.5vh;
+}
+
+.carousel-caption{
+    background-color:rgba(0,0,0,0.3085609243697479);
+    border-radius:2vh;
+}
+
+
+#Unetechnologies{
+background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F693%2Fthumb-1920-693900.png&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Unejeux{
+background-image: url("https://www.elsetge.cat/myimg/f/87-876455_all-games-in-one.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Unefilms{
+background-image: url("http://www.jeux-video.info/wp-content/uploads/2015/11/star-wars-battlefront-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Uneseries{
+background-image: url("https://wallpaperaccess.com/full/40992.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Unecomics{
+background-image: url("https://cdn.discordapp.com/attachments/525410282475094017/667317463473717279/marvel-create-your-own.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Unemangas{
+background-image: url("https://preview.redd.it/ciupn6qsktf31.jpg?auto=webp&s=9d6ec72ca3ff9c72758c1f5fd6ce9d864c606689");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Uneanimes{
+background-image: url("https://www.xtrafondos.com/wallpapers/resoluciones/19/shinobu-kocho-de-kimetsu-no-yaiba_2560x1440_3715.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Unenews{
+background-image: url("https://www.10wallpaper.com/wallpaper/2560x1600/1402/newspaper_ball_glass_silver-Macro_HD_Wallpaper_2560x1600.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+#Unecomparatifs{
+background-image: url("http://newwallpapers1.com/wp-content/uploads/2015/03/Fire-vs-Ice-Wallpaper-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+
+#technologies{
+	background-color: #4FC649;
+}
+#jeux{
+    background-color:#6959e0 ;
+}
+#films{
+	background-color:#59a1e0 ;
+}
+#series{
+	background-color:#ccb404;
+}
+#comics{
+	background-color:#cc7504;
+}
+#mangas{
+	background-color:#cc2804;
+}
+#animes{
+	background-color:#9c23d3;
+}
+#news{
+	background-color:#d14fb7;
+}
+#comparatifs{
+	background-color:black;
+}
+
+.category{
+    padding-left:.2vw;
+    padding-right:.5vw;
+    margin-top:-29.8vh;
+    position:absolute;
+	border-bottom-right-radius: 1.3vh;
+    color:white;
+      text-transform: uppercase;
+
+}
+#g1{
+    margin:auto;
+    margin-top:2vh;
+    max-width:73vw;
+}   
+
+#g1 .card{
+    height:50vh;
+    margin-left:.15vw;
+    margin-right:.15vw;
+}
+#g1 .category{
+    margin-top:-49.75vh;
+}
+
+/**/
+.smallGroup{
+    margin:auto;
+    margin-top:40px;
+    max-width:72.7vw;
+    margin-top:2vh;
+}
+
+h3{
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+h6{
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.smallGroup .card{
+    height:30vh;
+    margin-top:2vh;
+}
+.left{    
+    margin-right:.15vw;
+}
+.right{    
+    margin-left:.15vw;
+}
+.up{
+    min-width:100%;
+}
+/**/
+
+
+
+.card{
+    border-radius:0px;
+}
+
+.card a{
+    text-decoration:none;
+    height:100%;
+}
+
+.card-img-top {
+    height:100%;
+    object-fit: cover;
+}
+
+
+.card-img-overlay{
+	color: white;
+	font-weight: bold;
+	background-image: linear-gradient(to top, rgba(0, 0, 0,.8), rgba(0, 0, 0,.4), rgba(0, 0, 0,.2), rgba(0, 0, 0, 0));
+}
+
+.card-title{
+    font-size:1.6vw;
+    font-weight:bolder;
+    
+}
+
+.card-text{
+    font-size:1vw;
+	font-weight:normal;
+}
+
+
+#paa{
+    text-align:center;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container-fluid{
+        padding:0px;
+    }
+    
+    .card-group{
+        margin:0px;
+        padding:0px;
+        width:100%;
+    }
+    .card-title{
+       font-size:2.6vw;
+       font-weight:bolder;
+   }
+     .card-text{
+        font-size:2vw;
+    	padding: auto;
+    	font-weight:normal;
+   }
+   
+   #middleCard{
+    	border-left: 0px solid #4FC649;
+    	border-right: 0px solid #4FC649;
+    }
+}
+
+

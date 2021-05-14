@@ -1,0 +1,18 @@
+#box{
+	margin-top: 2%;
+	max-width: 1260px;
+}
+
+#col{
+		border-left: solid 1px grey;
+}
+
+h1	{
+	text-decoration: underline;
+	text-decoration-color: #4FC649;
+}
+
+.submit{
+	background: #4FC649;
+	border-color: #4FC649;
+}

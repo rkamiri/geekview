@@ -1,0 +1,135 @@
+article{
+    padding :4vw;   
+    padding-top:3vw;
+    padding-bottom:3vw;
+    width:70vw;
+}
+
+h1{
+	text-decoration: underline;
+	text-decoration-color: #4FC649;
+	font-size: 200%;
+}
+
+
+h2{
+	color: #4FC649;
+	text-decoration: underline;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+h3{
+	font-size: 160%;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 140%;
+	font-weight: bold;
+	color: #262626;
+}
+
+h5{
+	font-size: 120%;
+	font-weight: bold;
+	color: #3b3a3a;
+}
+
+p{
+	font-size: 95%;
+	color: #525252;
+}
+
+.inl{
+    display:inline-block;
+    margin-left :.5vw;
+}
+#share{
+    display:inline-block;
+    margin-left:.5vw;
+    margin-bottom:-.5vw;
+}
+#note{
+    width:200px;
+}
+
+#enAvant{
+    margin-bottom:2vw;  
+    margin-top:2vw;
+    width:75vw;
+}
+
+img{
+    max-width:90%;
+}
+
+#end{
+    margin-top:2vh;
+    border:solid black 1px;
+}
+#ptsforts{
+   padding:1vh;
+   min-width:30vw;
+   max-width:30vw;
+   display: table-cell;
+}
+#ptsforts p{
+    background-color:green;
+    color:white;
+    padding:.5vh;
+
+}
+#ptsfaibles{
+   padding:1vh;
+   min-width:30vw;
+   max-width:30vw;       
+   display: table-cell;
+}
+#ptsfaibles p{
+    background-color:red;
+    color:white;
+    padding:.5vh;
+}
+#conclusion{
+    padding:1vh;
+    width:100%;
+    border-top:solid black 1px;
+}
+
+#comments{
+    width:50vw;
+    margin:auto;
+    margin-top:3vh;
+}
+.commentdiv{
+    margin-bottom:1vh;
+    border-top:solid #5e5e5e .5px;
+    padding-top:1vh;
+}
+.commentdiv p{
+    margin-left:1vw;
+    color:grey;
+    overflow-wrap: break-word;
+}
+#commmentAuhtor{
+    display:inline;
+}
+#commentDate{
+    display:inline;
+    text-align:left;
+    float:right;
+}
+#comments h2{
+    text-align:center;
+}
+
+#commentText{
+    margin:auto;
+    margin-top:2vh;
+    width:50vw;
+    height:15vh;
+    resize:none;
+    display:block;
+    outline: none;
+}

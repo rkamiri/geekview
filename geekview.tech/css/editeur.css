@@ -1,0 +1,59 @@
+body{
+    color : white;
+}
+h2{
+    margin-top:1vh;
+    text-align:center;
+}
+
+#titre{
+    width:80vw;
+    display:block;
+    margin:auto;
+}
+
+.box{
+    background-color:white;
+    display:block;
+    margin:auto;
+    border:solid black 1px;
+    margin-top:1vh;
+    min-width:80vw;
+
+}
+.box{
+    background-color:white;
+    display:block;
+    margin:auto;
+    border:solid black 1px;
+    margin-top:1vh;
+    min-width:80vw;
+}
+
+p{
+    text-align:center;
+    margin-bottom:0px;
+    margin-top:1vh;
+}
+
+#pp{
+    margin:auto;
+    max-width:80vw;
+    margin-top:1vh;
+}
+
+#ok{
+    display:block;
+    margin:auto;
+    margin-top:2vh;
+}
+#note{
+    display:block;
+    margin:auto;
+}
+
+#categories{
+    margin:auto;
+    display:block;
+    color:red;
+}

@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+header{
+  background-image:url("../theme/images/subtle_white_feathers.png");
+  box-shadow: 8px 1px 12px #aaa;
+  margin-bottom: 20px;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+display: none;
+}
+
+.nav{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f7f7f7;
+}
+
+#fb{
+	margin-left: 3vw;
+}
+
+.nav a{
+	padding: 0px;
+	padding-right: 10px;
+	color: black;
+}
+
+.nav a:hover{
+	color: #4FC649;
+}
+.navlgo{
+	width: 20px;
+	height: 20px;
+}
+
+.navlgo:hover{
+	opacity: 0.7;
+}
+#connexionlink{
+	margin-right: 3vw;
+	display:inline;
+}
+#logo{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 180px;
+}
+
+#logo:hover{
+	opacity: 0.7;
+}
+
+nav{
+	display: inline-block;
+}
+
+nav .navbar-nav li a{
+  color: black !important;
+}
+
+#green:hover{
+	color: #4FC649 !important;
+}
+#darkblue:hover{
+    color:#6959e0 !important;
+}
+#lightblue:hover{
+    color:#59a1e0 !important;
+}
+#yellow:hover{
+    color:#ccb404!important;
+}
+#orange:hover{
+    color:#cc7504!important;
+}
+#red:hover{
+    color:#cc2804!important;
+}
+#violet:hover{
+    color:#9c23d3!important;
+}
+#pink:hover{
+    color:#d14fb7!important;
+}
+#black:hover{
+    color:black!important;
+}
+nav .navbar-nav li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#green::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #4FC649;
+
+}
+#darkblue::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #6959e0;
+}
+#lightblue::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #59a1e0;
+}
+#yellow::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #ccb404;
+}
+#orange::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #cc7504;
+}
+#red::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #cc2804;
+}
+#violet::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #9c23d3;
+}
+#pink::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: #d14fb7;
+}
+#black::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: black;
+}
+#green:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#darkblue:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#lightblue:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#yellow:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#orange:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#red:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#violet:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#pink:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#black:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+/*4FC649*/
+body{
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    background-image: url("https://wallpapercave.com/wp/wp2081173.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+@media screen and (max-width: 900px) {
+      article {
+         width: 100vw;
+      }
+}
+   
+article{
+    width: 74vw;
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;    
+    padding: 4px;
+    margin:auto;
+}
+.btnrm{
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	display:block;
+    margin:auto;
+    margin-top:2vh;
+}
+.btnrm:hover {
+	background-color:#5cbf2a;
+}
+.btnrm:active {
+	position:relative;
+	top:1px;
+}
+
+#back2Top {
+    width: 3vw;
+    height:3vw;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1vw;
+    right: 3vh;
+    background-color: #2dc929;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 100%;
+    border-width:0px;
+}
+#back2Top:focus {outline:0;}
+
+#back2Top:hover {
+    background-color: #a85238;
+    color: white;
+}
+
+#chat {
+    width: 40vw;
+    z-index: 1000;
+    position: fixed;
+    bottom: 10vh;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    box-shadow: -12px 14px 27px 2px rgba(107,107,107,1);
+
+}
+
+.messages {
+  background-color: #51a34d;
+  background-image:url("../theme/images/maze-black.png");
+  border-radius: 2px;
+  padding: .5vw;
+  height: 60vh;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.message {
+  color: white;
+  margin:0px;
+  margin-left:.2vw;
+  padding:0px;
+}
+
+.date, .author {
+  font-weight: bold;
+  width:1px;
+  height:1px;
+}
+
+#content{
+  margin:0px;
+  padding:0px;
+  height:5vh;
+  width: 32vw;
+  display: block;
+  float: left;
+}
+
+#needConn{
+    width:100%;
+    height:5vh;
+}
+
+#sendChat{
+  width:8vw;
+  height:5vh;
+ padding:0px;
+}
+
+
+
+.page-footer{
+    background-color: #4FC649;
+    background-image:url("../theme/images/diagmonds.png");
+	margin-top: 1%;
+}
+
+.page-footer p{
+    color :white;
+}
+.footer-copyright{
+	background-color: #333333;
+}
+#droits{
+	display: inline;
+	padding: 0px;
+	padding-bottom: 0px;
+	padding-left: 0.3%;
+	font-size: 75%;
+	color: white;
+}
+
+
+.footerlink{
+	color: white;
+	margin-right: 2%;
+	border-bottom: .125rem solid #9ef499;
+	text-decoration: none;
+	position: relative;
+	text-align: -webkit-match-parent;
+}
+
+
+.footerlink:hover{
+	text-decoration: none;
+	border-bottom: 2.5px solid white;
+}
+
+.page-footer a{
+	color: white;
+}
+
+#logofooter{
+	width: 6.5vw;
+	padding-bottom: .4vw;
+}
+#needConn a{
+    color : black;
+}
+.col-md-6 img{
+	width: 10vw;
+}
+
+.container {
+	font-family: 'Roboto', sans-serif;
+}
+.footer-copyright.text-center{
+    margin-top : 10px;
+}
